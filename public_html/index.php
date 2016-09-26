@@ -3,7 +3,10 @@ require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetPageProperty("title", "Демонстрационная версия продукта «1С-Битрикс: Управление сайтом»");
 $APPLICATION->SetPageProperty("NOT_SHOW_NAV_CHAIN", "Y");
 $APPLICATION->SetTitle("Каталог книг");
-?> <?$APPLICATION->IncludeComponent(
+?> 
+1111111111111111111111
+
+<?$APPLICATION->IncludeComponent(
 	"bitrix:catalog.section.list",
 	"",
 	Array(
